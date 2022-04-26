@@ -112,8 +112,8 @@ class _AuthScreenState extends State<AuthScreen> {
                           Navigator.popAndPushNamed(context, '/');
                         },
                         child: Text(
-                          AppLocalizations.of(context)!.restore,
-                        ),
+                            'Restore' //AppLocalizations.of(context)!.restore,
+                            ),
                       ),
                       TextButton(
                         onPressed: () async {
